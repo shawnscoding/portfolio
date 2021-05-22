@@ -1,0 +1,48 @@
+.header {
+  height: 85vh;
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(84, 145, 213),
+    #0172c2
+  );
+  background-size: none;
+  background-position: top;
+  position: relative;
+
+  @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    height: 95vh;
+  }
+
+  @include respond(phone) {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+  }
+
+  &__logo-box {
+    position: absolute;
+
+    top: 4rem;
+    left: 4rem;
+    @include respond(phone) {
+      top: 2rem;
+      left: 2rem;
+    }
+  }
+
+  &__logo {
+    height: 10rem;
+    @include respond(phone) {
+      height: 7rem;
+    }
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}

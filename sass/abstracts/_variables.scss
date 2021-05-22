@@ -1,0 +1,46 @@
+$color-primary: #1976d2;
+$color-primary-light: #2998ff;
+$color-primary-dark: #5643fa;
+
+$color-secondary: #55c57a;
+$color-secondary-light: #7ed56f;
+$color-secondary-dark: #28b485;
+
+$color-tertiary-light: #ffb900;
+$color-tertiary-dark: #ff7730;
+
+$color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #eee;
+
+$color-grey-dark: #777;
+$color-grey-dark-2: #999;
+$color-grey-dark-3: #333;
+
+$color-white: #fff;
+$color-black: #000;
+
+//  grid
+$grid-width: 114rem;
+$gutter-horizontal: 6rem;
+$gutter-vertical: 8rem;
+$gutter-vertical-small: 6rem;
+
+// font
+$default-font-size: 1.7rem;
+
+$color-card-1-primary: rgb(68, 178, 230);
+$color-card-1-secondary: rgb(5, 4, 77);
+$color-card-2-primary: rgb(41, 190, 0 / 67%);
+$color-card-2-secondary: rgb(2, 89, 12 / 85%);
+
+$color-card-3-primary: rgb(156, 18, 131);
+$color-card-3-secondary: rgb(170, 43, 21);
+$color-card-4-primary: rgb(107, 51, 14);
+$color-card-4-secondary: rgb(151, 143, 28);
+$color-card-5-primary: rgb(57, 107, 42);
+$color-card-5-secondary: rgb(27, 46, 33);
+$color-card-6-primary: rgb(236, 160, 38);
+$color-card-6-secondary: rgba(185, 19, 19, 0.911);
+
+// shadow color
+$default-s-c: rgba($color-black, 0.2);
