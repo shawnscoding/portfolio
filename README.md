@@ -1,6 +1,6 @@
 # Portfolio website
 
-My portfolio which includes breif self-introduction, list of skills and real world projects [Link](https://d13djsag49oqjv.cloudfront.net/index.html)
+My [portfolio](https://d13djsag49oqjv.cloudfront.net/index.html) which includes breif self-introduction, list of skills and real world projects
 
 <!--
 ## 앱 요약
